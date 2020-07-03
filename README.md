@@ -13,4 +13,13 @@ An Efficient Epistasis Mining Approach Using K-tree Optimizing Bayesian Network(
 #### use:
 #### $python install github.com/kanyulongkkk/KtreeBN/callr
 #### $python callr.py
-
+#### Parameter:
+#### inputfile_data: the outputfile of the fist part.
+#### inputfile_simulate_data: the simulate data download from  http://122.205.95.139/KtreeBN/.
+#### outputfile: the output file name.
+### 3.Get the Bayesian network
+#### Parameter:
+#### "alpha": used to adjust the threshold of fast-iamb algorithm.
+#### "epi": used to adjust the dimension of SNP-SNP interation.
+#### "inputfile": the outputfile of the second part.
+#### "outputfile": bayesian network.
